@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Charts
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-title class="ion-padding-start">Pie Chart</ion-card-title>
+    <ion-card-content class="ion-margin-top" [ngClass]="{'cardContent' : below}">
+      <app-pie-chart [view]="view" [legendPosition]="legendPosition"></app-pie-chart>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-title class="ion-padding-start">Vertical Bar Chart</ion-card-title>
+    <ion-card-content class="ion-margin-top" [ngClass]="{'cardContent' : below}">
+      <app-vertical-bar-chart [view]="view" [legendPosition]="legendPosition"></app-vertical-bar-chart>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-title class="ion-padding-start">Line Chart</ion-card-title>
+    <ion-card-content class="ion-margin-top" [ngClass]="{'cardContent' : below}">
+      <app-line-chart [view]="view" [legendPosition]="legendPosition"></app-line-chart>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-title class="ion-padding-start">Grouped Vertical Bar Chart</ion-card-title>
+    <ion-card-content class="ion-margin-top" [ngClass]="{'cardContent' : below}">
+      <app-grouped-vertical-bar-chart [view]="view" [legendPosition]="legendPosition"></app-grouped-vertical-bar-chart>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-title class="ion-padding-start">Horizontal Bar Chart</ion-card-title>
+    <ion-card-content class="ion-margin-top" [ngClass]="{'cardContent' : below}">
+      <app-horizontal-bar-chart [view]="view" [legendPosition]="legendPosition"></app-horizontal-bar-chart>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

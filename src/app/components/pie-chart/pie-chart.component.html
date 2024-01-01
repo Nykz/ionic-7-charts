@@ -1,0 +1,15 @@
+<ngx-charts-pie-chart
+  [view]="view"
+  [scheme]="'neons'"
+  [results]="single"
+  [gradient]="gradient"
+  [legend]="showLegend"
+  [legendPosition]="legendPosition"
+  [labels]="showLabels"
+  [doughnut]="isDoughnut"
+  (select)="onSelect($event)"
+  (activate)="onActivate($event)"
+  (deactivate)="onDeactivate($event)"
+  >
+  <!-- [scheme]="colorScheme" -->
+</ngx-charts-pie-chart>

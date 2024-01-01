@@ -1,0 +1,7 @@
+{
+  "name": "charts-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
